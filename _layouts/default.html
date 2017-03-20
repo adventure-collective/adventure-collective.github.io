@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Adventure Collective</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style media="screen">
+      @font-face {
+        font-family: 'Trocchi';
+        font-style: normal;
+        font-weight: 400;
+        src: url(https://fonts.gstatic.com/s/trocchi/v5/xaRL8g21HjvlPjge55qJgQLUuEpTyoUstqEm5AMlJo4.woff2) format('woff2');
+      }
+      body {
+        color: #333;
+        font-size: 150%;
+        font-family: 'Trocchi', serif;
+        margin: 4em 1em;
+        background: #eee;
+      }
+      h1 {
+        color: #000;
+        transform: rotate(.6deg);
+      }
+      hr {
+        border: none;
+        background: #ccc;
+        height: 2px;
+      }
+
+      @media (min-width: 850px) {
+        body {
+          margin: 4em;
+          max-width: 28em;
+          font-size: 180%;
+        }
+      }
+    </style>
+  </head>
+  <body>
+
+    {{ content }}
+
+  </body>
+</html>
