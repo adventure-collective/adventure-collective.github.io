@@ -15,12 +15,23 @@
         color: #333;
         font-size: 150%;
         font-family: 'Trocchi', serif;
-        margin: 4em 1em;
+        margin: 1em;
         background: #eee;
       }
       h1 {
         color: #000;
         transform: rotate(.6deg);
+      }
+      h1:before {
+        content: '';
+        background: url('/ac.svg') no-repeat left;
+        width: 15vmin;
+        height: 15vmin;
+        display: block;
+      }
+
+      #logo {
+        height: 30vh;
       }
       hr {
         border: none;
@@ -28,11 +39,24 @@
         height: 2px;
       }
 
-      @media (min-width: 850px) {
+      @media (min-width: 420px) {
+        h1 {
+          font-size:3em;
+        }
+      }
+
+      @media (min-width: 750px) {
+        h1 {
+          font-size:1.5em;
+        }
         body {
           margin: 4em;
           max-width: 28em;
           font-size: 180%;
+        }
+        #logo {
+          float: left;
+          margin-right: 1em;
         }
       }
     </style>
