@@ -1,7 +1,6 @@
 # Adventure Collective
 
 Working together to build adventurous things.
-{: .lead}
 
 ---
 
