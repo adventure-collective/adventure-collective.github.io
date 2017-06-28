@@ -10,7 +10,7 @@ Our projects have a few principles:
 
 By finding our way toward building something step by step, we're able to pick the best routes.
 
-This doesn't mean having no plan, just that our plan doesn't get in the way of implementation.
+This doesn't mean having no plan, just that our plan doesn't constrain implementation.
 
 ## 2/ Be achievable
 
@@ -22,4 +22,4 @@ There should be a way of it being **done** - whether it's published & shared onl
 
 A project should be accessible and open for people to find out about & help with.
 
-We don't have to adventure in secret.
+We shouldn't adventure in secret.
