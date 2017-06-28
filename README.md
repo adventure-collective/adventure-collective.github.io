@@ -20,6 +20,6 @@ There should be a way of it being **done** - whether it's published & shared onl
 
 ## 3/ Be open
 
-A project should be accessible and open for people to find out about & help with.
+A project should be accessible and open for people to see progress & help out with.
 
-We shouldn't adventure in secret.
+We don't have to adventure on our own, or in secret.
